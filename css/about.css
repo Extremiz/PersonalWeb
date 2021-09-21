@@ -37,7 +37,7 @@
   margin-left: .5em;
   font-size: 22px;
 }
-@media screen and (min-width: 750px) and (max-width: 900px){
+@media screen and (min-width: 630px) and (max-width: 900px){
   .description{
     max-width: 600px;
   }
