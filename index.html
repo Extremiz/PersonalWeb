@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script defer src="https://kit.fontawesome.com/4c0861452e.js" crossorigin="anonymous"></script>
+    <script defer src="js/navbar.js" type="text/javascript">
+
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#home" class="logo nav-link">Cristian Zini</a>
+        <button class="open-toggle"><i class="fas fa-bars"></i></button>
+        <ul class="nav-menu">
+          <button class="close-toggle"><i class="fas fa-times"></i></button>
+          <li class="nav-menu__item"><a class="nav-menu-link nav-menu-link_active" href="#home">home</a></li>
+          <li class="nav-menu__item"><a class="nav-menu-link" href="#about">about</a></li>
+          <li class="nav-menu__item"><a class="nav-menu-link" href="#skills">skills</a></li>
+          <li class="nav-menu__item"><a class="nav-menu-link" href="#portfolio">portfolio</a></li>
+          <li class="nav-menu__item"><a class="nav-menu-link" href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="window">
+        <div class="slidebar">
+          <div class="profile-card">
+            <img src="img/profile.webp" loading="lazy" class="profile-card__img" alt="Cristian Zini">
+          </div>
+          <div class="box-icons">
+             <a href="https://www.facebook.com/cristian.zinix/" target="_blank"><i class="card-icon fab fa-facebook-square"></i></a>
+             <a href="https://www.linkedin.com/in/cristian-zini/" target="_blank"><i class="card-icon fab fa-linkedin"></i></a>
+             <a href="https://github.com/Extremiz" target="_blank"><i class="card-icon fab fa-github-square"></i></a>
+           </div>
+        </div>
+          <div class="introduce"><h1 class="introduce_title">Welcome</h1>
+          <h2 class="introduce_subtitle">I'm Front-End Developer</h2></div>
+        </div>
+    </section>
+    <section class="seccion" id="about">
+      <div class="head-section">
+        <h2 class="section-title">ABOUT ME</h2>
+      </div>
+      <div class="description">
+        <p class="descrition-text">I'm a freelance web designer and I'm studying computer engineering. I'am self-taught, always eager to learn new technologies to be able to use them in my projects and ideas in the future. I am very dedicated and creative, always excited to work on a new project that tests my knowledge and from which I can learn and improve my abilities.</p>
+      </div>
+      <a class="button-cv"href="download/Cristian Zini CV.pdf" target="_blank" type="button">
+        <span class="text-button">Download CV</span>
+       <i class="icon-down fas fa-arrow-circle-down"></i></a>
+    </section>
+    <section class="seccion" id="skills">
+
+      <div class="head-section">
+        <h2 class="section-title">SKILLS</h2>
+      </div>
+      <div class="box">
+          <div class="skill-box"><i class="icon icon-html fab fa-html5"></i><span class="name-skill">HTML</span></div>
+          <div class="skill-box"><i class="icon icon-css fab fa-css3-alt"></i><span class="name-skill">CSS</span></div>
+          <div class="skill-box"><i class="icon icon-js fab fa-js"></i><span class="name-skill">JavaScript</span></div>
+          <div class="skill-box"><i class="icon icon-bs fab fa-bootstrap"></i><span class="name-skill">Bootstrap</span></div>
+        </div>
+    </section>
+    <section class="seccion" id="portfolio">
+      <div class="head-section"><h2 class="section-title">PORTFOLIO</h2></div>
+        <div class="port-box">
+          <div class="card-box">
+            <div class="img-section">
+              <figure>
+                <img class="img-proyect" src="img/p1.webp" loading="lazy" alt="Code Player">
+                <div class="img-details">
+                  <h3>Code Player</h3>
+                  <h4>made with:</h4>
+                  <i class="icon-img icon-html fab fa-html5"></i>
+                  <i class="icon-img icon-css fab fa-css3-alt"></i>
+                  <img src="svg/jquery.svg" loading="lazy" alt="">
+                </div>
+              </figure>
+            </div>
+          <a class="button-portfolio" href="https://extremiz.github.io/Jquery-codeplayer/" target="_blank" type="button">
+            <i class="fas fa-external-link-alt"></i> <span>visit</span>
+          </a>
+          <a class="button-portfolio" href="https://github.com/Extremiz/Jquery-codeplayer" target="_blank" type="button">
+            <i class="fab fa-github"></i> <span>repository</span>
+          </a>
+        </div>
+        <div class="card-box">
+          <div class="img-section">
+            <figure>
+              <img class="img-proyect"src="img/p2.webp" loading="lazy" alt="Media Player">
+              <div class="img-details">
+                <h3>Media Player</h3>
+                <h4>made with:</h4>
+                <i class="icon-img icon-html fab fa-html5"></i>
+                <i class="icon-img icon-css fab fa-css3-alt"></i>
+                <i class="icon-img icon-js fab fa-js"></i>
+              </div>
+            </figure>
+          </div>
+        <a class="button-portfolio" href="https://extremiz.github.io/MediaPlayer/" target="_blank" type="button">
+          <i class="fas fa-external-link-alt"></i> <span>Visit</span>
+        </a>
+        <a class="button-portfolio" href="https://github.com/Extremiz/MediaPlayer" target="_blank" type="button">
+          <i class="fab fa-github"></i> <span>Repository</span>
+        </a>
+      </div>
+        </div>
+    </section>
+    <section class="seccion" id="contact">
+      <div class="head-section">
+        <h2 class="section-title">CONTACT ME</h2>
+      </div>
+        <div class="box-contact">
+         <div class="contact-card"> <a href="https://wa.me/543425567264" target="_blank" type="button" ><i class="contact-icon wsp-icon fab fa-whatsapp-square" title="Whatsapp"></i></a></div>
+         <div class="contact-card"> <a href="mailto:cristian.zini1@outlook.com" type="button"><i class="mail-icon contact-icon fas fa-envelope" title="Email"></i></a></div>
+       </div>
+    </section>
+  </body>
+</html>

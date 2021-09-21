@@ -1,0 +1,49 @@
+:root{
+  --color-back: #94999E;
+  --color-inverse-light: #D1DADB;
+  --menu-mobile-background-color: #077788;
+  --text-color: #0A0A0A;
+  --menu-nav: #184677;
+  --item-selected: #0E2844;
+  --item-mobile-selected: #141414;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-color: var(--color-back);
+  font-family: 'Roboto', sans-serif;
+  padding-top: 80px;
+}
+
+a{
+  text-decoration: none;
+  color: var(--color-inverse-light);
+}
+
+.icon-html{
+  color: #F06428;
+}
+.icon-css{
+  color: #0273B0;
+}
+.icon-js{
+  color: #F7E01E;
+}
+.icon-bs{
+  color: #7312F6;
+}
+.head-section{
+  font-size: 40px;
+  padding-top: 150px;
+}
+.seccion{
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  .head-section{
+    font-size: 70px;
+  }
+}
