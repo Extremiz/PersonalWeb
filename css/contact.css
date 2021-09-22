@@ -1,0 +1,49 @@
+#contact{
+  text-align: center;
+}
+.box-contact{
+  max-width: 980px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 30px auto;
+  justify-content: center;
+}
+.contact-card{
+  background-color: var(--color-inverse-light);
+  margin: 20px;
+  height: 130px;
+  width: 130px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.8);
+  padding-top: 30px;
+}
+.contact-icon{
+  font-size: 70px;
+  transition: color 0.5S;
+}
+.mail-icon{
+  color: #1F5A98;
+}
+.wsp-icon{
+  color: #199D10;
+}
+
+.mail-icon:hover{
+  color: var(--item-selected);
+}
+.wsp-icon:hover{
+  color: #062504;
+}
+
+@media screen and (min-width: 950px){
+  .contact-card{
+    padding-top: 40px;
+    margin: 20px;
+    height: 180px;
+    width: 200px;
+  }
+  .contact-icon{
+    font-size: 100px;
+  }
+}
