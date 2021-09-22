@@ -102,4 +102,7 @@
   .icon-button{
     margin-right: 5px;
   }
+  .img-section figure:hover > .img-details h3{
+    margin-top: 100px;
+  }
 }
